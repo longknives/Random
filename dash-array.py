@@ -35,6 +35,7 @@ def rando(randomize1,content):
  
 def clear(makeIt):
  if (makeIt== True):
+   step2.clear()
    with open("plan.txt", 'r+') as f:
     f.truncate(0)
 
